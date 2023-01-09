@@ -11,8 +11,8 @@ galleryItems.forEach((element) => {
   const galleryLink = document.createElement("a");
   galleryLink.className = "gallery__link";
   galleryLink.href = element.original;
-
   const galleryImage = document.createElement("img");
+
   galleryImage.className = "gallery__image";
   galleryImage.src = element.preview;
   galleryImage.setAttribute("data-source", element.original);
